@@ -27,3 +27,12 @@ if(b>a)
     puts "#{a} lon hon #{b}"
 end
 
+# elseif
+
+num=8
+unless num<10
+    puts "yes"
+else
+    puts ""
+
+

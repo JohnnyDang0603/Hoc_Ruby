@@ -18,3 +18,17 @@ when 0,7
 when 1,2,3,4,5
     puts "Ngay lam viec"
 end
+
+# dai du lieu
+age=14
+case age
+when 0...14
+    # 3 cham thi ko lay gia tri 14
+    puts "Child"
+when 15..24
+    # 2 cham thi lay gia tri 24
+    puts "Youth"
+when 25...24
+else
+    puts "hello"
+end

@@ -21,3 +21,5 @@ end
 a=101
 puts "a chia het cho 2" if a%2==0
 puts "a khong chia het cho 2" unless a%2==0
+
+
