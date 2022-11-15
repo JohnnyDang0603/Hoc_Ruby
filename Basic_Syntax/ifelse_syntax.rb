@@ -9,15 +9,7 @@ else
 end
 
 
-# unless: thuc hien783925
-unless a<1
-    puts "Yes"
-else
-    puts "No"
-end
-
-
-# unless
+# unless: thuc hien cau lenh khi dieu kien tra ve false
 a=101
 puts "a chia het cho 2" if a%2==0
 puts "a khong chia het cho 2" unless a%2==0

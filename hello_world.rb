@@ -35,4 +35,9 @@ unless num<10
 else
     puts ""
 
+# i=0
+# while i<10
+#     i+=2
+#     raise "Hello khoa"
+# end
 
