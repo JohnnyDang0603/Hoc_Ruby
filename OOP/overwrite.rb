@@ -22,19 +22,21 @@
 # puts con_vat.tinh_cach
 
 
-class hinh
-    MESS = "SYSTEM ERROR: method missing"
-    def dientich;  raise MESS; end
+class Hinh
+    # MESS = "SYSTEM ERROR: method missing"
+    def dientich; end; 
+        # raise MESS; end
 end
 
-class hinhvuong<hinh
+class Hinhvuong<Hinh
     def dientich
         puts "dien tich hinh vuong"
     end
 end
 
 
-hinh_vuong=hinhvuong.new
 
-puts hinh_vuong.dientich
+# hinh_vuong=Hinhvuong.new
 
+# puts HinhVuong.ancestors.inspect
+BasicObject.private_methods.sort

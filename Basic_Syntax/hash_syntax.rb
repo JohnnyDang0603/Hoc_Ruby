@@ -28,3 +28,9 @@ puts c.key("name")
 puts c["iphone"]
 puts "obs"
 puts c.object_id
+
+
+hashmap_product={"1"=>"mot",1=>2,"3"=>3}
+puts "delete:"
+hashmap_product.delete("1")
+puts hashmap_product

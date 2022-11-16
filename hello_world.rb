@@ -1,52 +1,17 @@
-# # name="khoa"
-# # puts name
-# a=2
-# b=4
-
-
-# # puts a+b
-# # puts a-b
-# # puts a/b
-# # puts a*b
-# # puts a**=b
-
-# # a,b=5,10
-# # puts a+b
-# # mgs="Xin chao\nhello"
-# # puts "Tich a*b=#{a*b}"
-# # puts "a^b=#{a**=b}"
-
-# name="khoa"
-# puts "xin chao #{name}"
-
-# tb="chuc mung " 
-# puts tb*3
-# puts 3.eql?(3.0)
-
-# if(b>a)
-#     puts "#{a} lon hon #{b}"
-# end
-
-# # elseif
-
-# num=8
-# unless num<10
-#     puts "yes"
-# else
-#     puts ""
-
-# # i=0
-# # while i<10
-# #     i+=2
-# #     raise "Hello khoa"
-# # end
-
-
-A=12
-A=1
-puts A
-
-
-puts 100000000.0.class
-
-p "khoa"
+class Dog
+    def talk
+       puts "Dog go go"
+   end
+ 
+   def method_missing method_name, *arg
+      if method_name.to_s == 'eat'
+        puts "Dog don't need eat"
+      else
+        super
+      end
+    end
+end
+ 
+dog = Dog.new
+ 
+puts dog.eat
