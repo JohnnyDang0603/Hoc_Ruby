@@ -113,3 +113,13 @@ puts "Mảng nhiều chiều: "
 a=[[1,2,3],[3,4,5]]
 
 puts a[0][1]
+
+
+days = %w{1 1 Wednesday Thursday Friday Saturday Sunday}
+
+
+# days.delete("1")
+days.uniq
+puts days.uniq.inspect
+
+
